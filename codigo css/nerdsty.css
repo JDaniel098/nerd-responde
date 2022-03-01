@@ -21,6 +21,9 @@
 
 body {
   background-color: var(--cor1);
+  min-width: 300px;
+  max-width: 1000px;
+  margin: auto;
 }
 a.externo::after {
     content: '\00A0\1F517';
@@ -61,4 +64,9 @@ nav > a {
 }
 nav > a:hover {
     background-color: var(--cor0); 
+}
+
+footer {
+    background-color: var(--cor4);
+    color: black;
 }
