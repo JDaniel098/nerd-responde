@@ -5,22 +5,60 @@
 @font-face {
     font-family: 'nerd';
     src: url('../codigo\ css/Disney');
+    font-weight: normal;
 }
 
 :root {
     --font-1: 'nerd';
     --font-2: 'Amatic SC', cursive;
+
+    --cor0: #1CA1EB;
+    --cor1: #1DE9F5;
+    --cor2: #26DEAD;
+    --cor3: #1DF575;
+    --cor4: #2FF03F;
 }
 
 body {
-    margin: 0%;
-    padding: 0%;
+  background-color: var(--cor1);
+}
+a.externo::after {
+    content: '\00A0\1F517';
 }
 header {
-    background-color: tomato;
+    background-color: var(--cor0);
+    min-height: 150px;
+    text-align: center;
 }
 header h1 {
     text-align: center;
-    font-family: var(--font1);
-    font-size: 50px;
+    font-family: var(--font-2);
+    font-size: 80px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.247);
+}
+header p {
+    font-size: 28px;
+    text-align: center;
+    font-family: var(--font-1);
+    padding: 15px;
+    margin: 2px;
+}
+nav {
+    background-color: var(--cor3);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.582);
+}
+
+nav > a {
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+nav > a:hover {
+    background-color: var(--cor0); 
 }
