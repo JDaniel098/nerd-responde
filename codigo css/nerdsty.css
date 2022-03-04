@@ -1,32 +1,33 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
 
 @font-face {
-    font-family: 'nerd';
-    src: url('../codigo\ css/Disney');
+    font-family: "nerd";
+    src: url("../codigo\ css/Disney");
     font-weight: normal;
 }
 
 :root {
-    --font-1: 'nerd';
-    --font-2: 'Amatic SC', cursive;
+    --font-1: "nerd";
+    --font-2: "Amatic SC", cursive;
 
-    --cor0: #1CA1EB;
-    --cor1: #1DE9F5;
-    --cor2: #26DEAD;
-    --cor3: #1DF575;
-    --cor4: #2FF03F;
+    --cor0: #1ca1eb;
+    --cor1: #1de9f5;
+    --cor2: #26dead;
+    --cor3: #1df575;
+    --cor4: #d2fac6;
+    --cor5: #abfaee;
 }
 
 body {
-  background-color: var(--cor1);
-  min-width: 300px;
-  max-width: 1000px;
-  margin: auto;
+    background-color: var(--cor5);
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
 }
 a.externo::after {
-    content: '\00A0\1F517';
+    content: "\00A0\1F517";
 }
 header {
     background-color: var(--cor0);
@@ -47,7 +48,6 @@ header p {
     font-family: var(--font-1);
     padding: 15px;
     margin: 2px;
-
 }
 nav {
     background-color: var(--cor3);
@@ -65,9 +65,14 @@ nav > a {
     transition-duration: 0.5s;
 }
 nav > a:hover {
-    background-color: var(--cor0); 
+    background-color: var(--cor0);
 }
-
+main {
+    background-color: var(--cor4);
+}
+main h1 {
+    text-align: center;
+}
 footer {
     background-color: var(--cor4);
     color: black;
