@@ -58,7 +58,7 @@ nav {
 
 nav > a {
     color: black;
-    padding: 10px;
+    padding: 15px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
@@ -76,4 +76,23 @@ main h1 {
 footer {
     background-color: var(--cor4);
     color: black;
+}
+.conteudo {
+    background-color: var(--cor0);
+    margin: 10px;
+}
+.extra1 {
+    background-color: var(--cor3);
+    padding: 0px;
+    margin: 10px;
+}
+.extra2 {
+    background-color: var(--cor3);
+    padding: 0px;
+    margin: 10px;
+}
+.extra3 {
+    background-color: var(--cor3);
+    padding: 0px;
+    margin: 10px;
 }
